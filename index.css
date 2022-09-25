@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #011627ff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 2rem;
+}
+.brand h1{
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+form input {
+    border: 2px solid #ccc;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 17px;
+    background-image: url(./download.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    box-sizing: inherit;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 2rem;
+    background-color: #cfd7c7ff;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+nav ul li a{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black; 
+    padding: 10px 20px;
+}
+.main{
+    display: flex;
+    align-items: center; 
+    height: 70vh;
+    max-height: 70vh;
+}
+
+.main .award{
+    width: 50%;
+    max-width: 50%;
+    align-self: center;
+    background-color: #70a9a1ff;
+    color: white;
+    padding: 3.2rem;
+
+}
+
+
+.award h1 {
+    margin-top: 40px;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.award p{
+    line-height: 23px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 4rem;
+}
+
+.award  a {
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 35px;
+  }
+  .main .image{
+    width: 50%;
+    max-width: 50%;
+     height: 70vh;
+}
+
+.main .image img{
+    max-width: 100%;
+    height: auto; 
+    object-fit: fill;
+}
